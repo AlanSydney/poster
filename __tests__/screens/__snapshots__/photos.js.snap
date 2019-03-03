@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoScreen Test Rendered successfully! 1`] = `"<PhotoScreen />"`;
+
+exports[`PhotoScreen Test VirtualizedList Rendered successfully! 1`] = `"<VirtualizedList />"`;

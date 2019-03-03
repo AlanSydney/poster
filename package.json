@@ -1,0 +1,50 @@
+{
+  "name": "social-mvp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "server": "json-server ./server/db.json",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.1.3",
+    "lodash": "^4.17.11",
+    "native-base": "^2.12.0",
+    "react": "16.6.3",
+    "react-native": "0.58.5",
+    "react-native-gesture-handler": "^1.0.16",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-reset": "^0.3.0",
+    "redux-thunk": "^2.3.0",
+    "uri-js": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-preset-react-native": "^5",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "jest-css-modules": "^1.1.0",
+    "json-server": "^0.14.2",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-native-dotenv": "^0.2.0",
+    "react-test-renderer": "16.6.3"
+  }
+}
